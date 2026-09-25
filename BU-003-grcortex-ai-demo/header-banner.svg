@@ -1,0 +1,30 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#081426"/>
+      <stop offset="50%" stop-color="#112a45"/>
+      <stop offset="100%" stop-color="#0d1727"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="500" fill="url(#bg)"/>
+  <circle cx="1320" cy="90" r="180" fill="#ffffff" opacity="0.05"/>
+  <circle cx="1180" cy="330" r="260" fill="#38bdf8" opacity="0.08"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="120" y="210" font-size="84" font-weight="700" fill="#F8FBFF">GRCortex AI</text>
+    <text x="120" y="290" font-size="28" fill="#CFE7FF" letter-spacing="2">AI GOVERNANCE • RISK • COMPLIANCE</text>
+    <rect x="120" y="325" width="230" height="8" rx="4" fill="url(#accent)"/>
+    <text x="120" y="385" font-size="26" fill="#DDEFFF">Semantic policy intelligence for trustworthy AI systems</text>
+  </g>
+  <g opacity="0.9">
+    <circle cx="1180" cy="150" r="18" fill="#5eead4"/>
+    <circle cx="1235" cy="200" r="12" fill="#93c5fd"/>
+    <circle cx="1288" cy="150" r="16" fill="#38bdf8"/>
+    <path d="M1180 150 L1235 200 L1288 150 M1235 200 L1235 285" stroke="#E2E8F0" stroke-width="4" fill="none"/>
+    <path d="M1088 270 L1180 150 L1272 270" stroke="#A7F3D0" stroke-width="3" fill="none" opacity="0.8"/>
+    <path d="M1128 305 L1180 150 L1232 305" stroke="#93C5FD" stroke-width="3" fill="none" opacity="0.8"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconBg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="iconAccent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="72" fill="url(#iconBg)"/>
+  <circle cx="256" cy="172" r="82" fill="url(#iconAccent)" opacity="0.85"/>
+  <path d="M128 310 L256 172 L384 310" stroke="#E2E8F0" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M172 346 L256 256 L340 346" stroke="#A7F3D0" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="190" y="338" width="132" height="58" rx="12" fill="#E0F2FE" opacity="0.9"/>
+  <text x="256" y="374" text-anchor="middle" font-size="32" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#0f172a">AI</text>
+</svg>
