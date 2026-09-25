@@ -55,9 +55,13 @@ The combined system models a layered AI security fabric:
 
 ## Repository structure
 
+The repository is now checked in as a single Git project with the four delivery folders included directly in the root. Each solution folder contains its own source, tests, docs, and runtime assets.
+
 ```text
 AI-Cyber-Security-Services/
 ├── README.md
+├── LICENSE
+├── .gitignore
 ├── .github/
 │   └── assets/
 │       ├── header-banner.svg
@@ -72,9 +76,40 @@ AI-Cyber-Security-Services/
 │   ├── RFP.md
 │   └── MEDIUM_THESIS.md
 ├── BU-001-ai_security_demo/
+│   ├── main.py
+│   ├── main2.py
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── docs/
+│   ├── security/
+│   └── tests/
 ├── BU-002-hexashield-sim/
+│   ├── main.py
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── modules/
+│   ├── docs/
+│   ├── tests/
+│   └── output.txt
 ├── BU-003-grcortex-ai-demo/
-└── BU-004-CyberTiX AI-Semantic Large Security Model-demo/
+│   ├── main.py
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── database/
+│   ├── intelligence/
+│   ├── monitoring/
+│   ├── docs/
+│   └── test/
+├── BU-004-CyberTiX AI-Semantic Large Security Model-demo/
+│   ├── main.py
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── engine.py
+│   ├── models.py
+│   ├── docs/
+│   ├── tests/
+│   └── output.txt
+└── .git/
 ```
 
 ## Product modules and implementations
@@ -140,7 +175,16 @@ Read the governance and product documentation in the `docs/` folder:
 
 ### Option 2: Run individual demo components
 
-Each BU folder contains its own project-specific setup instructions and runtime flow. Use the project folders directly for local execution and validation.
+Each BU folder is a standalone project that contains its own README, requirements, and runtime entry point. Use the project folders directly for local execution and validation:
+
+- [BU-001-ai_security_demo](BU-001-ai_security_demo)
+- [BU-002-hexashield-sim](BU-002-hexashield-sim)
+- [BU-003-grcortex-ai-demo](BU-003-grcortex-ai-demo)
+- [BU-004-CyberTiX AI-Semantic Large Security Model-demo](BU-004-CyberTiX%20AI-Semantic%20Large%20Security%20Model-demo)
+
+### Option 3: Use the root repository as the consolidated product
+
+The root README acts as the master overview for the full portfolio. Use it to navigate across all solution streams while keeping the individual directories intact for specific demos and engineering work.
 
 ## Compliance and governance posture
 
