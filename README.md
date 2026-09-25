@@ -55,62 +55,7 @@ The combined system models a layered AI security fabric:
 
 ## Repository structure
 
-The repository is now checked in as a single Git project with the four delivery folders included directly in the root. Each solution folder contains its own source, tests, docs, and runtime assets.
-
-```text
-AI-Cyber-Security-Services/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── .github/
-│   └── assets/
-│       ├── header-banner.svg
-│       └── product-icon.svg
-├── docs/
-│   ├── COMPLIANCE_CHECKLIST.md
-│   ├── COMPLIANCE.md
-│   ├── COPYRIGHT.md
-│   ├── PATENT_AND_INVENTION_DISCLOSURE.md
-│   ├── SCOPE_OF_WORK.md
-│   ├── FUTURE_ENHANCEMENTS.md
-│   ├── RFP.md
-│   └── MEDIUM_THESIS.md
-├── BU-001-ai_security_demo/
-│   ├── main.py
-│   ├── main2.py
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── docs/
-│   ├── security/
-│   └── tests/
-├── BU-002-hexashield-sim/
-│   ├── main.py
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── modules/
-│   ├── docs/
-│   ├── tests/
-│   └── output.txt
-├── BU-003-grcortex-ai-demo/
-│   ├── main.py
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── database/
-│   ├── intelligence/
-│   ├── monitoring/
-│   ├── docs/
-│   └── test/
-├── BU-004-CyberTiX AI-Semantic Large Security Model-demo/
-│   ├── main.py
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── engine.py
-│   ├── models.py
-│   ├── docs/
-│   ├── tests/
-│   └── output.txt
-└── .git/
-```
+For the full checked-in project layout, see [docs/Repository-structure.md](docs/Repository-structure.md).
 
 ## Product modules and implementations
 
