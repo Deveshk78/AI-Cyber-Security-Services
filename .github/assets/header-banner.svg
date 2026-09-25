@@ -1,0 +1,57 @@
+<svg width="1600" height="460" viewBox="0 0 1600 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071321"/>
+      <stop offset="0.5" stop-color="#0B1E2E"/>
+      <stop offset="1" stop-color="#171A2E"/>
+    </linearGradient>
+    <linearGradient id="line" x1="140" y1="110" x2="1450" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#47D1FF"/>
+      <stop offset="0.5" stop-color="#7A7BFF"/>
+      <stop offset="1" stop-color="#86F7C7"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 90) rotate(90) scale(260 500)">
+      <stop stop-color="#32D3FF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#32D3FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1180 360) rotate(90) scale(220 500)">
+      <stop stop-color="#86F7C7" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#86F7C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="460" fill="url(#bg)"/>
+  <circle cx="420" cy="90" r="260" fill="url(#glow1)"/>
+  <circle cx="1180" cy="360" r="220" fill="url(#glow2)"/>
+
+  <g opacity="0.18">
+    <path d="M100 330C260 280 320 210 480 180C610 155 710 200 840 180C975 160 1040 95 1180 120C1300 142 1425 245 1505 260V360H100V330Z" fill="#77E6FF"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M110 118H560" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1040 118H1490" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M130 150H304" stroke="#84F2CF" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <path d="M1280 150H1468" stroke="#84F2CF" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <g>
+    <rect x="125" y="105" width="1350" height="250" rx="28" fill="rgba(17,25,36,0.15)" stroke="rgba(128,221,255,0.35)"/>
+    <path d="M220 291L308 211L367 264L440 178L552 291H220Z" fill="#1AD6FF" fill-opacity="0.13"/>
+    <path d="M1040 177L1115 231L1158 200L1217 260L1305 177H1040Z" fill="#7EF5C8" fill-opacity="0.12"/>
+  </g>
+
+  <g>
+    <path d="M171 230L220 160H300L349 230L300 300H220L171 230Z" fill="url(#line)" opacity="0.3"/>
+    <path d="M184 230L220 187H300L336 230L300 273H220L184 230Z" fill="#DFFBFF" fill-opacity="0.16"/>
+    <path d="M353 196L389 160H470L508 196L470 232H389L353 196Z" fill="#8AE7FF" fill-opacity="0.21"/>
+    <path d="M1100 210H1180V290H1100V210Z" fill="#8AE7FF" fill-opacity="0.12"/>
+    <path d="M1210 210H1292V290H1210V210Z" fill="#7EF5C8" fill-opacity="0.13"/>
+    <path d="M1320 210H1406V290H1320V210Z" fill="#8AE7FF" fill-opacity="0.12"/>
+  </g>
+
+  <g>
+    <text x="800" y="205" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="#EAFBFF" letter-spacing="2">AI CYBER SECURITY SERVICES</text>
+    <text x="800" y="255" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" fill="#9FE9FF" letter-spacing="4">INTELLIGENT SECURITY OPERATIONS • GOVERNANCE • COMPLIANCE</text>
+    <text x="800" y="298" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#C8E7F0" letter-spacing="2">AI Red Teaming • Guardrails • Threat Intelligence • Secure Automation</text>
+  </g>
+</svg>
